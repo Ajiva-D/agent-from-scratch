@@ -2,53 +2,88 @@
   "messages": [
     {
       "role": "user",
-      "content": "my name is scott",
-      "id": "27d1e15d-15ff-44a3-af2e-daae1190e216",
-      "createdAt": "2024-11-05T20:42:53.667Z"
-    },
-    {
-      "role": "assistant",
-      "content": "Nice to meet you, Scott! How can I assist you today?",
-      "refusal": null,
-      "id": "7ba683d3-0160-4d12-bd19-74b5598bd049",
-      "createdAt": "2024-11-05T20:42:54.208Z"
-    },
-    {
-      "role": "user",
-      "content": "what is the weather in in mexico city",
-      "id": "e76aafe3-903f-4c0e-8ad3-c6ebc4111ad3",
-      "createdAt": "2024-11-05T20:43:04.149Z"
+      "content": "Get a post from reddit, and create a meme combining the reddit post with a random dad joke.",
+      "id": "e6fe6ffc-2126-4c0e-baf5-1f62d3053796",
+      "createdAt": "2025-01-02T14:17:08.294Z"
     },
     {
       "role": "assistant",
       "content": null,
       "tool_calls": [
         {
-          "id": "call_PE4XnGL48FBz7y47OM63eBtY",
+          "id": "call_KJfCDHbGd3GdiIuvQy10p2QT",
           "type": "function",
           "function": {
-            "name": "get_weather",
-            "arguments": "{\"reasoning\":\"User asked for the current weather in Mexico City.\"}"
+            "name": "reddit",
+            "arguments": "{}"
           }
         }
       ],
       "refusal": null,
-      "id": "02bb2468-fb05-49ac-9455-20aa9cf1cb15",
-      "createdAt": "2024-11-05T20:43:04.908Z"
+      "id": "795dd121-8fd4-4a89-bb10-aab7a53aed41",
+      "createdAt": "2025-01-02T14:17:09.635Z"
     },
     {
       "role": "tool",
-      "content": "hot, 90deg",
-      "tool_call_id": "call_PE4XnGL48FBz7y47OM63eBtY",
-      "id": "954a14e2-f21f-4e6b-9471-df6c3cc8fc68",
-      "createdAt": "2024-11-05T20:43:04.912Z"
+      "content": "[\n  {\n    \"title\": \"Daily Discussion Thread + Game Thread Index\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"NBA_MOD\",\n    \"upvotes\": 10\n  },\n  {\n    \"title\": \"[SERIOUS NEXT DAY THREAD] Post-Game Discussion (January 01, 2025)\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"NBA_MOD\",\n    \"upvotes\": 3\n  },\n  {\n    \"title\": \"[Highlight] Richaun Holmes tries to get his baby to participate during the halftime baby race\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"StalkingDwarf\",\n    \"upvotes\": 6516\n  },\n  {\n    \"title\": \"Nikola Jokic becomes the first player in NBA history to record 20 PTS │ 15 REB │ 15 AST in less than 30 minutes. \",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"YujiDomainExpansion\",\n    \"upvotes\": 3414\n  },\n  {\n    \"title\": \"[Highlight] Jarrett Allen in his post game interview, “We’re playing Cavs basketball. It’s ethical basketball.”\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"PootieTooGood\",\n    \"upvotes\": 6622\n  },\n  {\n    \"title\": \"The Nuggets are 9-2 with Russell Westbrook as a starter \",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"Classic-Carpet7609\",\n    \"upvotes\": 1553\n  },\n  {\n    \"title\": \"[Video] Pistons G Jaden Ivey suffers nasty-looking leg injury vs. Magic \",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"Fun_Reflection1157\",\n    \"upvotes\": 2486\n  },\n  {\n    \"title\": \"Karl-Anthony Towns secures his third straight 30/10 game in a win over the Jazz: 31/21/3 on 10-20 FG (3-6 3PT), 8-9 FT with one block and one steal\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"baseservant\",\n    \"upvotes\": 2117\n  },\n  {\n    \"title\": \"Josh Hart was asked about the Knicks' upcoming game vs. the Thunder: \\\"This will be a good test. The big man (Isaiah Hartenstein) got paid this summer, so he should be a little slow on his feet and slow trying to protect the rim. We should be able to go at him\\\"\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"HokageEzio\",\n    \"upvotes\": 1443\n  },\n  {\n    \"title\": \"[Highlight] Scottie Barnes with the no look 3 pointer \",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"slamdunk23\",\n    \"upvotes\": 2240\n  },\n  {\n    \"title\": \"Russell Westbrook in the win: 16 PTS 11 AST 5-6 FG 5-5 FT +24. His second straight game with 10+ assists.\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"TheDraciel\",\n    \"upvotes\": 1045\n  },\n  {\n    \"title\": \"[Shai Gilgeous-Alexander] on hearing that Anthony Edwards said SGA deserved the MVP this season: “It’s a good feeling… no offense to you guys in the media, but the best satisfaction is when your peers recognize and respect your craft and your talent.”\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"AashyLarry\",\n    \"upvotes\": 3571\n  },\n  {\n    \"title\": \"Paul George in clutch time during the 4th quarter in a loss to the Sacramento Kings: 0-1 FG │ 3 TOs │ 3 PFs │ -7 +/- │ Fouls Out\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"YujiDomainExpansion\",\n    \"upvotes\": 762\n  },\n  {\n    \"title\": \"Bryce James has committed to the University of Arizona\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"Proof-Umpire-7718\",\n    \"upvotes\": 5357\n  },\n  {\n    \"title\": \"[Batcheller] Jaden Ivey is leaving the Pistons-Magic game on a stretcher with what appears to be a very serious lower leg injury.\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"Vortagaun\",\n    \"upvotes\": 1165\n  },\n  {\n    \"title\": \"[Highlight] Towns with AUTHORITY over Walker Kessler!\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"TheRealPdGaming\",\n    \"upvotes\": 1030\n  },\n  {\n    \"title\": \"In 18 minutes of play, Jokic has 13 points, 9 rebounds, and 10 assists.\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"Expensive-Salad-7828\",\n    \"upvotes\": 838\n  },\n  {\n    \"title\": \"Biggest \\\"free throw merchants\\\" of the season so far\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"Aggravating-Web-5404\",\n    \"upvotes\": 885\n  },\n  {\n    \"title\": \"Josh \\\"Milk Man\\\" Hart with his first career back to back triple double as they win against the Jazz tonight: 15 PTS 14 REBS 12 ASTS 1 STL 1 BLK +15 in 44 MINS\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"Expensive-Inside-426\",\n    \"upvotes\": 858\n  },\n  {\n    \"title\": \"KAT on what's different about Thibs from their time in Minnesota: \\\"He's a different man. I like this version going into 2025. You see him smile. I've grown since the time when we were together in Minnesota, he's grown. This game of life, we're just finding ourselves getting better with time.\\\"\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"HokageEzio\",\n    \"upvotes\": 486\n  },\n  {\n    \"title\": \"Immanuel Quickley returns to the Raptors with a double-double and the win:  21/1/15 on 1 turnover | Team high +/- of +23\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"CazOnReddit\",\n    \"upvotes\": 580\n  },\n  {\n    \"title\": \"[Post Game Thread] The Denver Nuggets (19-13) defeat the Atlanta Hawks (18-16), 139-120 behind Nikola Jokic's 23/17/15\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"Guardax\",\n    \"upvotes\": 434\n  },\n  {\n    \"title\": \"[Spears] Knicks say Karl-Anthony Towns registered 31 points and 21 rebounds tonight against Utah. He is now the first Knicks player since Patrick Ewing (1989-90) to record multiple 30+ point, 20+ rebound games in the same season.\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"Knightbear49\",\n    \"upvotes\": 491\n  },\n  {\n    \"title\": \"Gary Payton describes how Shaq would dump weeks worth of his own human waste on rookies heads to haze them \",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"itwas20yearsago2day\",\n    \"upvotes\": 155\n  },\n  {\n    \"title\": \"[Highlight] Scottie nails his 3rd 3 of the night and shimmies to assert dominance\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"CazOnReddit\",\n    \"upvotes\": 550\n  },\n  {\n    \"title\": \"Denver Nuggets are back to the 4th seed in the West after their win against the Hawks\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"OctopusNation2024\",\n    \"upvotes\": 350\n  },\n  {\n    \"title\": \"Shai Gilgeous-Alexander is the first player to reach 1,000 points this season. No other player has yet to reach 900 points.\",\n    \"subreddit\": \"r/nba\",\n    \"author\": \"MrBuckBuck\",\n    \"upvotes\": 1007\n  }\n]",
+      "tool_call_id": "call_KJfCDHbGd3GdiIuvQy10p2QT",
+      "id": "6a3aeda0-3860-4ab0-b174-9300ee036017",
+      "createdAt": "2025-01-02T14:17:11.457Z"
     },
     {
       "role": "assistant",
-      "content": "The current weather in Mexico City is hot, with a temperature of 90°F. If you need more details or have any other questions, feel free to ask!",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_CinwYqAv2hrwRcRRhfOFbdtM",
+          "type": "function",
+          "function": {
+            "name": "dad_joke",
+            "arguments": "{}"
+          }
+        }
+      ],
       "refusal": null,
-      "id": "1dedbb35-8a0c-41d3-97ad-e63f4edfb9eb",
-      "createdAt": "2024-11-05T20:43:05.822Z"
+      "id": "05930be1-7eae-40c3-98c2-1f39c18504de",
+      "createdAt": "2025-01-02T14:17:12.199Z"
+    },
+    {
+      "role": "tool",
+      "content": "To the person who stole my anti-depressant pills: I hope you're happy now.",
+      "tool_call_id": "call_CinwYqAv2hrwRcRRhfOFbdtM",
+      "id": "af4036dd-d837-4d59-a218-c61d2c1a5691",
+      "createdAt": "2025-01-02T14:17:13.397Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_vxjkkm4p1TBd29dKqWBBMjQ8",
+          "type": "function",
+          "function": {
+            "name": "generate_image",
+            "arguments": "{\"prompt\":\"A humorous meme combining a basketball highlight scene with a caption. The scene shows a player attempting a funny move during a game, with the text overlay: 'To the person who stole my anti-depressant pills: I hope you're happy now.' The style is colorful and playful, capturing the light-heartedness of sports memes.\"}"
+          }
+        }
+      ],
+      "refusal": null,
+      "id": "a1bb4645-1309-45ff-8407-b6d7ddb8a499",
+      "createdAt": "2025-01-02T14:17:15.584Z"
+    },
+    {
+      "role": "tool",
+      "content": "https://oaidalleapiprodscus.blob.core.windows.net/private/org-puYsPiIUi2xXNfBSmxkSoBHw/user-GxGclZYgCVBdXTgdxiZHNhSE/img-DwrtRGKt51hjDgM6NxjaIFo7.png?st=2025-01-02T13%3A17%3A30Z&se=2025-01-02T15%3A17%3A30Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-01-02T00%3A39%3A26Z&ske=2025-01-03T00%3A39%3A26Z&sks=b&skv=2024-08-04&sig=5K2YYL9UToxhQUb%2BKz3B8t6j7BfXnjnQCE1/UDCdWMs%3D",
+      "tool_call_id": "call_vxjkkm4p1TBd29dKqWBBMjQ8",
+      "id": "0f870443-80b3-4055-af1e-5bf9b3258e95",
+      "createdAt": "2025-01-02T14:17:30.468Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a meme combining a basketball highlight with a dad joke! \n\n![Basketball Meme](https://oaidalleapiprodscus.blob.core.windows.net/private/org-puYsPiIUi2xXNfBSmxkSoBHw/user-GxGclZYgCVBdXTgdxiZHNhSE/img-DwrtRGKt51hjDgM6NxjaIFo7.png?st=2025-01-02T13%3A17%3A30Z&se=2025-01-02T15%3A17%3A30Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-01-02T00%3A39%3A26Z&ske=2025-01-03T00%3A39%3A26Z&sks=b&skv=2024-08-04&sig=5K2YYL9UToxhQUb%2BKz3B8t6j7BfXnjnQCE1/UDCdWMs%3D)\n\nThe caption reads: \"To the person who stole my anti-depressant pills: I hope you're happy now.\" Enjoy!",
+      "refusal": null,
+      "id": "3176fbc0-c33f-497e-8f59-c07380ffab13",
+      "createdAt": "2025-01-02T14:17:37.446Z"
     }
   ]
 }
